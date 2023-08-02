@@ -92,11 +92,13 @@
 	}
 
 	// Elements Animation
-	if($('.wow').length){
-		var wow = new WOW({
-		mobile:       false
-		});
-		wow.init();
+	if ($(window).width() > 1400) {
+		if ($('.wow').length) {
+			var wow = new WOW({
+				mobile: false
+			});
+			wow.init();
+		}
 	}
 
 	//Contact Form Validation
