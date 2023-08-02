@@ -9829,3 +9829,48 @@
   display: block;
   margin-top: 10px;
  }
+
+ .iframe-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 255%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container-long {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 415%;
+}
+
+.iframe-container-long iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container-short {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 230%;
+}
+
+.iframe-container-short iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
