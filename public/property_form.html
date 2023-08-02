@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Property</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+          }
+          
+          h2 {
+            color: #008000;
+            margin-bottom: 20px;
+          }
+          
+          form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #008000;
+            border-radius: 5px;
+            background-color: #fff;
+          }
+          
+          label {
+            display: block;
+            margin-bottom: 10px;
+            color: #008000;
+          }
+          
+          input[type="text"],
+          input[type="number"],
+          textarea,
+          select {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+          
+          input[type="file"] {
+            margin-bottom: 10px;
+          }
+          
+          button {
+            background-color: #008000;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          button[type="submit"] {
+            background-color: #008000;
+            color: #fff;
+          }
+          
+          button[type="button"] {
+            background-color: #dc3545;
+          }
+          
+          button:hover {
+            opacity: 0.8;
+          }
+          
+          /* Styling for the delete form */
+          #deletePropertyForm {
+            margin-top: 50px;
+            border: 1px solid #008000;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+          }
+          
+          #deletePropertyForm label {
+            color: #008000;
+          }
+          
+          #deleteButton {
+            background-color: #dc3545;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          #deleteButton:hover {
+            opacity: 0.8;
+          }
+    </style>
+</head>
+
+<body>
+    <h2>Add New Property</h2>
+    <form id="propertyForm" enctype="multipart/form-data">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br>
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required><br>
+
+        <!-- <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br> -->
+
+        <label for="category">category:</label>
+        <select id="category" name="category" required>
+            <option value="דירת גן">דירת גן</option>
+            <option value="מסחרי">מסחרי</option>
+            <option value="דירה">דירה</option>
+            <option value="ווילה">ווילה</option>
+            <option value="בית פרטי">בית פרטי</option>
+            <option value="משרד">משרד</option>
+        </select><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+
+        <label for="images">Images:</label>
+        <input type="file" id="images" name="images" multiple accept="image/*" required><br>
+
+        <label for="author">Author:</label>
+        <select id="author" name="author" required>
+            <option value="meidan">Meidan</option>
+            <option value="alex">Alex</option>
+            <option value="sarah">Sarah</option>
+        </select><br>
+
+        <!-- <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required><br>
+
+        <label for="authorImage">Author Image:</label>
+        <input type="file" id="authorImage" name="authorImage" accept="image/*" required><br> -->
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br>
+
+        <label for="shortDesc">Short Description:</label>
+        <textarea id="shortDesc" name="shortDesc" required minlength="50" maxlength="75" placeholder="Type more then 50 and less then 75 letters."></textarea><br>
+
+        <label for="longDesc">Short Description:</label>
+        <textarea id="longDesc" name="longDesc" required placeholder="Type long description here."></textarea><br>
+
+        <label for="beds">Beds:</label>
+        <input type="number" id="beds" name="beds" required><br>
+
+        <label for="baths">Baths:</label>
+        <input type="number" id="baths" name="baths" required><br>
+
+        <label for="sqFt">Square Feet:</label>
+        <input type="number" id="sqFt" name="sqFt" required><br>
+
+        <label for="builfloor">building floors:</label>
+        <input type="text" id="buildingfloors" name="buildingfloors" value="-" required><br>
+
+        <label for="floor">floor:</label>
+        <input type="text" id="floor" name="floor" value="-" required><br>
+
+        <label for="priority">Priority (1-9):</label>
+        <input type="number" id="priority" name="priority" min="1" max="9">
+        
+        <br>
+
+        <!-- <label for="sqFt">Square Feet:</label>
+        <input type="number" id="sqFt" name="sqFt" required><br> -->
+
+        <div class="amenities">
+            <label>Amenities:</label><br>
+            <label for="amenity1">מעלית</label>
+            <input type="checkbox" id="amenity1" name="amenities" value="מעלית"><br>
+            <label for="amenity2">מחסן</label>
+            <input type="checkbox" id="amenity2" name="amenities" value="מחסן"><br>
+            <label for="amenity3">חנייה</label>
+            <input type="checkbox" id="amenity3" name="amenities" value="חנייה"><br>
+            <label for="amenity4">דוד שמש</label>
+            <input type="checkbox" id="amenity4" name="amenities" value="דוד שמש"><br>
+            <label for="amenity5">משופץ</label>
+            <input type="checkbox" id="amenity5" name="amenities" value="משופץ"><br>
+            <label for="amenity6">מרוהט</label>
+            <input type="checkbox" id="amenity6" name="amenities" value="מרוהט"><br>
+            <label for="amenity7">מרפסת שמש</label>
+            <input type="checkbox" id="amenity7" name="amenities" value="מרפסת שמש"><br>
+            <label for="amenity8">מיזוג אוויר מרכזי</label>
+            <input type="checkbox" id="amenity8" name="amenities" value="מיזוג אוויר מרכזי"><br>
+            <label for="amenity9">מיזוג אוויר</label>
+            <input type="checkbox" id="amenity9" name="amenities" value="מיזוג אוויר"><br>
+            <label for="amenity10">נגיש לנכים</label>
+            <input type="checkbox" id="amenity10" name="amenities" value="נגיש לנכים"><br>
+            <label for="amenity11">איזור שקט</label>
+            <input type="checkbox" id="amenity11" name="amenities" value="איזור שקט"><br>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Delete Property</h2>
+    <form id="deletePropertyForm">
+        <label for="propertyList">Select Property:</label>
+        <select id="propertyList" name="propertyList">
+            <!-- Populate options dynamically using JavaScript -->
+        </select>
+        <button type="button" id="deleteButton">Delete Property</button>
+    </form>
+    <script>
+        const propertyForm = document.getElementById('propertyForm');
+
+        propertyForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(propertyForm);
+
+            try {
+                const response = await fetch('/create_property', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const property = await response.json();
+                    alert('Property added successfully! New property ID: ' + property.id);
+                    propertyForm.reset();
+                } else {
+                    alert('Failed to add property. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error adding property:', error);
+                alert('An error occurred. Please try again later.');
+            }
+        });
+        const deletePropertyForm = document.getElementById('deletePropertyForm');
+        const dropdown = document.getElementById('propertyList');
+
+        // Function to fetch the properties data from the server
+        async function fetchProperties() {
+            try {
+                const response = await fetch('/get_properties');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error fetching properties:', error);
+                return [];
+            }
+        }
+
+        // Function to populate the dropdown with property titles
+        async function populateDropdown() {
+            const properties = await fetchProperties();
+            dropdown.innerHTML = ''; // Clear existing options
+            properties.forEach((property) => {
+                const option = document.createElement('option');
+                option.value = property.title;
+                option.textContent = property.title;
+                dropdown.appendChild(option);
+            });
+        }
+
+        // Call the function to populate the dropdown when the page loads
+        populateDropdown();
+
+        // Event listener for the delete button
+        const deleteButton = document.getElementById('deleteButton');
+deleteButton.addEventListener('click', async (e) => {
+    e.preventDefault();
+    const selectedPropertyTitle = dropdown.value;
+
+    try {
+        // Fetch the properties data from the server
+        const response = await fetch('./property.json');
+        const properties = await response.json();
+
+        // Find the selected property in the array by its title
+        const selectedProperty = properties.find((property) => property.title === selectedPropertyTitle);
+
+        if (selectedProperty) {
+            // Send the ID of the selected property to the server for deletion
+            const saveResponse = await fetch(`/delete_property/${selectedProperty.id}`, {
+                method: 'DELETE'
+            });
+
+            if (saveResponse.ok) {
+                // Successfully deleted property
+                alert('Property deleted successfully!');
+                // Repopulate the dropdown to reflect the updated data
+                dropdown.innerHTML = '';
+                populateDropdown();
+            } else {
+                alert('Failed to delete property. Please try again.');
+            }
+        } else {
+            alert('Selected property not found in the list.');
+        }
+    } catch (error) {
+        console.error('Error deleting property:', error);
+        alert('An error occurred while deleting the property. Please try again later.');
+    }
+});
+    </script>
+</body>
+
+</html>

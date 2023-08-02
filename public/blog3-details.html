@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Realshed - HTML 5 Template Preview</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
+    <link href="assets/css/switcher-style.css" rel="stylesheet">
+    <link href="assets/css/rtl.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper rtl">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="far fa-times"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="ש." class="letters-loading">
+                                ש.
+                            </span>
+                            <span data-text-preloader="מ" class="letters-loading">
+                                מ
+                            </span>
+                            <span data-text-preloader="&nbsp;" class="letters-loading">
+                                &nbsp;
+                            </span>
+                            <span data-text-preloader="נ" class="letters-loading">
+                                נ
+                            </span>
+                            <span data-text-preloader="ד" class="letters-loading">
+                                ד
+                            </span>
+                            <span data-text-preloader='ל' class="letters-loading">
+                                ל
+                            </span>
+                            <span data-text-preloader='"' class="letters-loading">
+                                "
+                            </span>
+                            <span data-text-preloader="ן" class="letters-loading">
+                                ן
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- switcher menu -->
+        <div class="switcher">
+            <div class="switch_btn">
+                <button><i class="fas fa-palette"></i></button>
+            </div>
+            <div class="switch_menu">
+                <!-- color changer -->
+                <div class="switcher_container">
+                    <ul id="styleOptions" title="switch styling">
+                        <li>
+                            <a href="javascript: void(0)" data-theme="green" class="green-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="pink" class="pink-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="violet" class="violet-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="crimson" class="crimson-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="orange" class="orange-color"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end switcher menu -->
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="top-inner clearfix">
+                    <div class="left-column pull-left">
+                        <ul class="info clearfix">
+                            <li><i class="far fa-map-marker-alt"></i>יוחנן בן זכאי 6, טבריה</li>
+                            <li><i class="far fa-clock"></i>ראשון - חמישי, משעה 9:00 - 18:00</li>
+                            <li><i class="far fa-phone"></i><a href="tel:+9720505813711">050-581-3711</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-column pull-right">
+                        <ul class="social-links clearfix">
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-box">
+                    <div class="main-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="index.html"><span>דף הבית</span></a>
+
+                                        </li>
+                                        <li><a href="property-grid.html"><span>נכסים</span></a>
+
+                                        </li>
+                                        <li><a href="about.html"><span>קצת עלינו</span></a>
+                                        </li>
+                                        <li><a href="blog-3.html"><span>חדשות</span></a>
+                                        </li>
+                                        <li><a href="contact.html"><span>צרו קשר</span></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="tel:+9720505813711" class="theme-btn btn-one">972-505813711+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-box">
+                    <div class="main-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="tel:+9720505813711" class="theme-btn btn-one">972-505813711+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a>
+                </div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+                    <h4>פרטים ילצירת קשר</h4>
+                    <ul>
+                        <li>יוחנן בן זכאי 6, טבריה</li>
+                        <li><a href="tel:+9720505813711">050-581-3711</a></li>
+                        <li><a href="mailto:meidan@example.com">meidan@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!--Page Title-->
+        <section class="page-title centred" style="background-image: url(assets/images/background/backabout.png);">
+            <div class="auto-container">
+                <div class="content-box clearfix">
+                    <h1>Blog Details</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Blog Details</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End Page Title-->
+
+
+        <!-- sidebar-page-container -->
+        <section class="sidebar-page-container blog-details sec-pad-2">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="news-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img style="height:520px;" src="assets/images/news/Blog3.jpg" alt=""></figure>
+                                        <span class="category">Featured</span>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h3>מחירי הדירות נבלמו, אך הצניחה בבנייה עלולה להזניקם מחדש
+                                        </h3>
+                                        <p>בענף הנדל"ן מייחסים חשיבות פחותה לירידות המחירים הקלות שנרשמו במדד מחירי
+                                            הדירות לאחר למעלה משלוש שנים של עליות; המומחים מזהירים מהיום שאחרי כשהריבית
+                                            תיעצר ובהיעדר היצע דירות המחירים ישובו לזנק; בטווח הקצר יסבלו מהמצב גם שוכרי
+                                            הדירות
+                                        </p> <br />
+                                        <ul class="post-info clearfix">
+                                            <li class="author-box">
+                                                <figure class="author-thumb"><img src="assets/images/news/author-1.jpg"
+                                                        alt=""></figure>
+                                                <h5><a href="blog-details.html">Eva Green</a></h5>
+                                            </li>
+                                            <li>אפריל 25, 2023</li>
+                                        </ul>
+                                        <div class="text">
+                                            <p style="color: black;">הירידה במחירי הדירות בשיעור של 0.2% כפי שהוצגה
+                                                בנתוני הלשכה המרכזית לסטטיסטיקה (הלמ"ס) לחודשים ינואר-פברואר משקפת בעיקר
+                                                את הירידה החדה במכירת דירות בחודשים האחרונים.
+                                            </p>
+                                            <p style="color: black;">המצד אחד הרוכשים חוששים, ובצדק, להיכנס אל השוק כעת לאור הריביות הגבוהות
+                                                וחוסר הוודאות הכלכלית, ומן הצד השני, היזמים נמנעים מהורדות מחירים. חלקם,
+                                                אלה שרכשו קרקעות במחירים מופקעים, גם לא יכולים להוריד מחירים. התוצאה,
+                                                היא ירידה הדרגתית בהיקפי רכישת הדירות כשבשטח חלק ממשרדי המכירות שוממים.
+                                            </p>
+                                            <p style="color: black;">הכן, ניתן לראות גם התחלה של ירידות מחירים. אך כדי לצנן מעט את ההתלהבות
+                                                חשוב להגיד כבר כעת, כי הירידה הנוכחית היא אמנם חלק ממגמה מתמשכת של
+                                                היחלשות הביקושים בענף לאור עליית הריביות, אך מנגד, אנחנו נמצאים לאחר
+                                                תקופה שבה עלו המחירים ב־20% בשנה. ב־12 החודשים האחרונים עלו מחירי הדיור
+                                                ב־12.7%. המשמעות היא כי מידת ההשפעה של הירידה על הרוכשים היא זעומה, ולא
+                                                בטוח ששברירי האחוזים של ירידת המחירים מבשרים על תקופה של מגמה שלילית
+                                                במחירי הדירות.
+                                            </p>
+                                            <blockquote>
+                                                <iframe
+                                                    src="https://e.infogram.com/2c83420f-39f9-4796-82a9-bb805e4e84a7?parent_url=https%3A%2F%2Fwww.calcalist.co.il%2Freal-estate%2Farticle%2Fsy8nahtzh&amp;src=embed#async_embed"
+                                                    scrolling="no" frameborder="0" allowfullscreen=""
+                                                    title="סימנים להורדת מחירים"
+                                                    style="border: none; width: 600px; height: 1550px;"
+                                                    data-gtm-yt-inspected-6="true"></iframe>
+
+                                            </blockquote>
+                                            <p style="color: black;">ירידת המחירים שראינו כעת ברמה הארצית היא נתון בעל משמעות סמלית כשמאחוריו
+                                                מגמה שכבר מתרחשת כאן מספר חודשים, כפי שגם ניתן לראות בנתוני הלמ"ס.
+                                                הסמליות היא בכך שלהאטה יש ביטוי בממוצע שלילי, אך הירידה עליה דווח, היא
+                                                ממוצע, ולכן ניתן לראות כי בחלק מהאזורים חוו זאת כבר לפני כמה חודשים,
+                                                ובאחרים לא רואים שינוי גם כעת. במחוז ירושלים למשל, נרשמו ירידות מאז חודש
+                                                דצמבר בשיעור של 1.2%, כלומר גבוה משמעותית מהממוצע הארצי. ירידות קודמות
+                                                נרשמו גם במחוזות תל אביב וחיפה, בשיעורים של 1% ו־0.5% בהתאמה. מנגד,
+                                                באזור הצפון דווקא נרשמו עליות מחירים בשיעור של 2.2%.
+                                            </p>
+                                            <p style="color: black;">כדי לפשט את התמונה הכוללת, במשחק הנדל"ן המקומי יש מספר משתנים עיקריים
+                                                המשפיעים על הרוכשים, ובראשם: הריבית, מחירי הדירות, והמשכורות. העובדה
+                                                שמחירי הדירות זינקו עד לאחרונה בכ־20% בשנה אחת הובילה למצב ייחודי שלא
+                                                ראינו בשוק הישראלי כבר הרבה זמן. הזוגות הצעירים שכבר היו "חנוקים" עוד
+                                                לפני העלאות הריבית מתקשים מאוד לגייס את ההון העצמי הנדרש לדירה, ובעיקר
+                                                חוששים מהמשך עליות הריבית. לכך יש להוסיף גם את המשתנה הנוסף של חוסר
+                                                הוודאות בענף, הנובע מהדרדרות מצב הכלכלה ומהחשש למהלכים נרחבים של קיצוצים
+                                                ואבטלה.
+                                            </p>
+                                            <p style="color: black;">מרכיב משמעותי נוסף כשמתייחסים להשלכות על שוק הדיור, הוא התחלות הבנייה.
+                                                שנת 2022 הסתיימה עם ירידה של 23% בהתחלות הבנייה בהשוואה ל־2021, והמשך
+                                                ירידה בהתחלות הבנייה עשויה לגרום לעליות מחירים ביום שהשוק יתאושש, כפי
+                                                שכבר ראינו בעבר בימי סוף הקורונה.
+                                            </p>
+                                            <p style="color: black;">פרופ' דני בן־שחר, ראש מכון אלרוב לחקר הנדל"ן, חבר סגל וחוקר בפקולטה
+                                                לניהול ע"ש קולר באוניברסיטת תל אביב, אומר כי בשלב זה לירידות המחירים אין
+                                                השפעה על הרוכשים. "מחיר הקניה של דירה מורכב ממחיר הנכס ומחיר המשכנתא,
+                                                ואנחנו רואים בלימה במחיר הנכס לצד עלייה מאוד חדה בעלות המשכנתא. הנקודה
+                                                היא, שבגלל ששני הגורמים האלה חוברים ביחד, גם אם נראה ירידה אפילו ב־10%
+                                                במחירי הדירות זה לא יקל משמעותית על המצוקה של משקי בית שרוצים להיכנס פעם
+                                                ראשונה לשוק. הריבית היום לא יותר גבוהה מהרמה של לפני 10 שנים, אבל מחירי
+                                                הדירות דאז לא היו כאלה גבוהים. השילוב הזה של ריבית עולה ומחירי דירות
+                                                מאוד גבוהים לצד הכנסה שלא השיגה את קצב עליית המחירים, הובילה לכך שהמצוקה
+                                                של רוכשי הדירות היא, ככל הנראה, הכי קשה כיום ברמה היסטורית".
+                                            </p>
+                                            <p style="color: black;">לגבי הירידה בהתחלות הבנייה אומר בן־שחר כי "חיכינו לבלימה שתגרום הריבית,
+                                                אבל אם המגמה של התחלות בנייה לא תגדל, נראה שוב ירידה בהיצע, וזה שוב ילחץ
+                                                את המחירים כלפי למעלה".
+                                            </p>
+                                            <p style="color: black;">נושא התחלות הבנייה מעסיק מאוד גם את היזמים הקבלנים ובעצם את כל מי שהוא
+                                                חלק מהענף, כולל מהנדסים, מעצבים ושלל התעשיות הנלוות. חיים פייגלין, מנכ"ל
+                                                חברת צמח המרמן וסגן נשיא התאחדות הקבלנים בוני הארץ, אומר בהמשך למדד
+                                                השלילי, כי יש חובה לאזן את עליות הריבית עם פעולות שיגדילו את היצע
+                                                הבנייה. "אמרנו כל הזמן שנברך על התייצבות במחירי הדירות, ולטעמי אנחנו כן
+                                                רואים התייצבות אחרי עלייה של עשרות אחוזים בתקופה קצרה. הבעיה שאלה ירידות
+                                                לטווחים קצרים שנובעות ממניעים שגויים ולא נכונים, משיעורי הריבית שעלו
+                                                באגרסיביות והושיבו על הגדר את כל השוק כולל את היזמים. ראינו ירידה של 43%
+                                                בהכנסות של המדינה ממסים ולכן ברור שיש כאן דרמה. זה מערער את כל תקציב
+                                                המדינה והנחות היסוד שלו. בסופו של דבר ריבית היא פעולה לטווח קצר ומתישהו
+                                                יעצרו את הריביות ואולי גם יורידו אותן וזה יוריד מהגדר בבת אחת הרבה רוכשי
+                                                דירות שיגיעו לשוק עם היצע מדולל".
+                                            </p>
+                                            <blockquote>
+                                                <iframe
+                                                    src="https://e.infogram.com/729d8762-f36d-41c3-95d8-b16ae376a71c?parent_url=https%3A%2F%2Fwww.calcalist.co.il%2Freal-estate%2Farticle%2Fsy8nahtzh&amp;src=embed#async_embed"
+                                                    scrolling="no" frameborder="0" allowfullscreen="" title="מדד מחירים"
+                                                    style="border: none; width: 600px; height: 2455px;"
+                                                    data-gtm-yt-inspected-6="true"></iframe>
+
+                                            </blockquote>
+                                            <p style="color: black;">עוד אומר פייגלין, כי זה הזמן של הממשלה לפעול בצורה אגרסיבית להורדת חסמים.
+                                                "הכוונה בעיקר למיסוי, רגולציה, והצפת השוק בקרקעות שהן כעת זולות. עכשיו
+                                                צריך להוציא קרקעות במחירים זולים. זו לא חוכמה שרמ"י מייבשים את השוק. אין
+                                                מספיק מכרזים כעת, השומות של רמ"י מתאימות לתקופה של לפני שנה וצריך להוריד
+                                                אותן דרסטית. המטרה עכשיו היא לאזן את עליות הריבית".
+                                            </p>
+                                            <p style="color: black;">ד"ר אפרת טולקובסקי, מנכ"לית מכון G-CITY לחקר הנדל"ן באוניברסיטת רייכמן,
+                                                סבורה כי קשה למקד את הפתרונות כשכמעט כל מרכיב אפשרי שקשור לעולם הנדל"ן
+                                                השתנה, ולא רק בארץ. "כל העולם זז, הגלובליזציה משתנה, היכולת של ישראלים
+                                                לגור ברחבי העולם תשתנה אולי לרעה כי חלקם יפוטרו ואולי יחזרו. יש אינפלציה
+                                                בעוד הרבה מקומות. באוסטרליה האינפלציה היא 7% והם הודיעו שהם הפסיקו
+                                                להעלות את הריבית. אין אפילו רק מרכיב אחד של המציאות שלא זז כרגע, גם
+                                                במרחב העולמי וגם בישראל".
+                                            </p>
+                                            <p style="color: black;">ברמה הפרקטית, לפחות כשמנתחים את צד היזמים, אומרת טולקובסקי כי היא לא רואה
+                                                מניעה שנראה ירידות מחירים משמעותיות יותר. "אני לא רואה למה היזמים לא
+                                                יכולים להוריד מחירים אחרי שהמחירים עלו כל כך הרבה. התוכניות העסקיות של
+                                                חלקם הן מלפני שנה וחצי שנתיים ומאז המחירים עלו לפחות ב־15%. אני חושבת
+                                                שיש יזמים שיש להם בעיה עם מחיר הקרקע וכשמסתכלים קדימה הם יבינו שהדרך
+                                                היחידה לעלות על הקרקע היא להוריד מחירים. הזמן הוא פונקציה משמעותית עבורם
+                                                כעת בגלל עלויות המימון".
+                                            </p>
+                                            <p style="color: black;">לגבי חשש מחדלות פירעון בקרב רוכשי דירות אומרת טולקובסקי כי היסטורית זה לא
+                                                קרה הרבה, ולהערכתה גם כעת זה לא יהפוך לתופעה. "אולי אלה שרכשו בשיא יהיו
+                                                בסיכון גבוה, אך לא מדובר ברוכשים רבים. צריך לזכור שמדובר בחוב אישי, כך
+                                                שייתכן שחלקם ימכרו את הדירות וישלמו אותו. זה יכול לקרות במיוחד אם יהיה
+                                                מיתון והתעסוקה תיפגע".
+                                            </p>
+                                            <p style="color: black;">גם ברמה של קריסת יזמים וקבלנים נראה שהמצב טרם הגיע לנקודה שבה יש חשש
+                                                מאירועים שיזעזעו את הענף ואת הכלכלה המקומית. אבישי בן חיים מנכ"ל ובעלים
+                                                של חברת רוטשטיין, אומר כי בשלב זה המצב בשטח פחות נורא מכפי שמתארים אותו,
+                                                לפחות מהזווית האישית שלו. "אם לא יהיו ירידות של 6%-5% אי אפשר לקרוא לזה
+                                                ירידות מחירים. יש אמנם ירידה במכירות אבל אין קיפאון, אנחנו מוכרים.
+                                                הירידה היא של 40% כעת ואני חושב שיש התייצבות עכשיו. אין ירידה במחירים
+                                                לפחות לא אצלנו ויכול להיות שיש יזמים שנתקעו עם מלאי וחייבים להוריד
+                                                מחירים. גם אם המחירים ירדו ב־4%-3% זה כלום אחרי עליות ממושכות. אני חושב
+                                                שמתישהו זה ישתחרר ורואים את האופק, נראה שהריביות האלה הן השיא".
+                                            </p>
+                                            <p style="color: black;">כשהוא נדרש להשיב מה יקרה אם הקיפאון יחריף אמר בן חיים כי "אם זה ימשיך כך
+                                                במשך שנה התמונה תהיה מאד שונה. יש למשל הרבה חברות שיש להן נתח גדול של
+                                                התחדשות עירונית וזה מספק להן הגנה מסוימת. לצד זאת, הריבית עלתה וזה אוכל
+                                                מהרווחים של היזמים ויש גם כאלה שקנו בשנתיים האחרונות קרקעות במחירים
+                                                גבוהים ועלולים להפסיד".
+                                            </p>
+                                            <p style="color: black;">פייגלין התייחס לכך ואמר כי "יש יזמים שנכנסים לבונקר וזה מובן לאור
+                                                הסיכונים, כולם נפגעים מזה כולל קופת המדינה והשלטון המקומי". לצד זאת הוא
+                                                מסביר, "הענף הזה חי ממשבר למשבר ואנחנו מתנהלים במציאות הזו. נכון שאומרים
+                                                שהיצע הדירות הלא מכורות שבר שיאים, אבל כשהמדינה גדלה ב־2% לשנה שזה תוספת
+                                                של עיר כמו חולון בכל שנה, הרכבת ממשיכה לדהור. אם כולם יהיו במגננה:
+                                                הקבלנים, הבנקים ורוכשי הדירות, זה עלול להביא למשבר גדול יותר אבל אני
+                                                מקווה שהמשך עליית הריבית ייפסק".
+                                            </p>
+                                            <p style="color: black;">במצב הנוכחי, הנפגעים הם לא רק רוכשי הדירות ואלה שכבר רכשו דירות ונדרשים
+                                                לשאת בהגדלת נטל המשכנתא. לפי נתוני הלמ"ס, שוכרי הדירות נפגעו ברמה גבוהה
+                                                יותר מכולם. שכר הדירה החודשי בקרב שוכרים אשר חידשו חוזה הצביע על עלייה
+                                                של כ־4.2% ועבור שוכרים חדשים (דירות שבהן הייתה תחלופת שוכר) נרשמה עלייה
+                                                של כ־7.2%. במידה והיצע הדירות ילך וירד, מצבם של שוכרי הדירות רק ילך
+                                                ויחריף.
+                                            </p>
+                                            <p style="color: black;">"אנחנו רואים המשך מגמה של עליות מחירים בשוק השכירות בפרט בחוזים החדשים",
+                                                אומר בן־שחר. "אני חושב שמה שאנחנו רואים זה שאין היום אלטרנטיבה לרכוש
+                                                ולגייס ולפיכך חלק מהשוק פונה לשכירות". בהקשר לשכירות, ניתן לציין מגמה
+                                                שלילית נוספת הנוגעת לשוק השכירות המוסדית אשר נבלם כמעט לחלוטין לאור רמות
+                                                הריבית שהפכו את העסקאות בו לבלתי כדאיות כלכלית, כך שגם בשנים הקרובות
+                                                וכנראה בעשור הקרוב, עיקר השכירויות עדיין יהיו בשוק הפרטי".
+                                            </p>
+                                            <p style="color: black;">קשה להתעלם מכך שלהחרפת משבר הדיור הנוכחי בעת הזו כשהמדינה רועדת והשסע
+                                                בחברה הולך וגדל יש ככל הנראה קשר לחוסר הביקושים בחלק מהאזורים. לדברי
+                                                טולקובסקי, "כבר שומעים אנשים בעיקר בתל אביב שיש להם כסף וחשבו לקנות דירה
+                                                לנכדים, אבל הכל התערער להם. אנשים בדיכאון וכבר לא בטוחים בכלל שהנכדים
+                                                יגורו בישראל לאור המצב. אני יודעת שזה לא מקורי אבל אם הייתי צריכה לייעץ
+                                                למשלה הייתי אומרת להם לבטל את הרפורמה".
+                                            </p>
+                                            <p style="color: black;">בן־שחר התייחס גם הוא להפיכה המשפטית ולהשפעת האקלים החברתי במדינה. "אני
+                                                חושב שאם אתה מוסיף למשבר ולמצוקה שקיימת כרגע בעולם הדיור גם את המשבר של
+                                                ההפיכה המשפטית יכולה להיות לכך השפעה על זוגות שישקלו לעזוב את ישראל, אבל
+                                                קשה למדוד אותו".
+                                            </p>
+                                        </div>
+                                        <!-- <div class="post-tags">
+                                            <ul class="tags-list clearfix">
+                                                <li>
+                                                    <h5>Tags:</h5>
+                                                </li>
+                                                <li><a href="blog-details.html">Real Estate</a></li>
+                                                <li><a href="blog-details.html">Interior</a></li>
+                                                <li><a href="blog-details.html">Rent Home</a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="comments-area">
+                                <div class="group-title">
+                                    <h4>3 Comments</h4>
+                                </div>
+                                <div class="comment-box">
+                                    <div class="comment">
+                                        <figure class="thumb-box">
+                                            <img src="assets/images/news/comment-1.jpg" alt="">
+                                        </figure>
+                                        <div class="comment-inner">
+                                            <div class="comment-info clearfix">
+                                                <h5>Rebeka Dawson</h5>
+                                                <span>April 10, 2020</span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nos trud exerc.</p>
+                                                <a href="blog-details.html"><i class="fas fa-share"></i>Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment replay-comment">
+                                        <figure class="thumb-box">
+                                            <img src="assets/images/news/comment-2.jpg" alt="">
+                                        </figure>
+                                        <div class="comment-inner">
+                                            <div class="comment-info clearfix">
+                                                <h5>Elizabeth Winstead</h5>
+                                                <span>April 10, 2020</span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Lorem ipsum dolor sit amet, consectur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nos</p>
+                                                <a href="blog-details.html"><i class="fas fa-share"></i>Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <figure class="thumb-box">
+                                            <img src="assets/images/news/comment-3.jpg" alt="">
+                                        </figure>
+                                        <div class="comment-inner">
+                                            <div class="comment-info clearfix">
+                                                <h5>Benedict Cumbatch</h5>
+                                                <span>April 10, 2020</span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nos trud exerc.</p>
+                                                <a href="blog-details.html"><i class="fas fa-share"></i>Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="comments-form-area">
+                                <div class="group-title">
+                                    <h4>Leave a Comment</h4>
+                                </div>
+                                <form action="blog-details.html" method="post" class="comment-form default-form">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="name" placeholder="Your name" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="email" name="email" placeholder="Your email" required>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="phone" placeholder="Phone number" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="subject" placeholder="Subject" required="">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <textarea name="message" placeholder="Your message"></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                            <button type="submit" class="theme-btn btn-one">Submit Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="blog-sidebar">
+                            <!-- <div class="sidebar-widget search-widget" style="display: none;">
+                                <div class="widget-title">
+                                    <h4>Search</h4>
+                                </div>
+                                <div class="search-inner">
+                                    <form action="blog-1.html" method="post">
+                                        <div class="form-group">
+                                            <input type="search" name="search_field" placeholder="Search" required="">
+                                            <button type="submit"><i class="fas fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> -->
+                            <div class="sidebar-widget social-widget">
+                                <div class="widget-title">
+                                    <h4>Follow Us On</h4>
+                                </div>
+                                <ul class="social-links clearfix">
+                                    <li><a href="blog-1.html"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="blog-1.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="blog-1.html"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="blog-1.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="blog-1.html"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- <div class="sidebar-widget category-widget" style="display: none;">
+                                <div class="widget-title">
+                                    <h4>Category</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list clearfix">
+                                        <li><a href="blog-details.html">Home improvement<span>(9)</span></a></li>
+                                        <li><a href="blog-details.html">Architecture<span>(5)</span></a></li>
+                                        <li><a href="blog-details.html">Tips and advice<span>(2)</span></a></li>
+                                        <li><a href="blog-details.html">Interior<span>(7)</span></a></li>
+                                        <li><a href="blog-details.html">Real Estate<span>(3)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="sidebar-widget post-widget">
+                                <div class="widget-title">
+                                    <h4>Recent Posts</h4>
+                                </div>
+                                <div class="post-inner">
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="blog-details.html"><img
+                                                    src="assets/images/news/post-1.jpg" alt=""></a></figure>
+                                        <h5><a href="blog-details.html">Best interior design idea for your home.</a>
+                                        </h5>
+                                        <span class="post-date">April 10, 2020</span>
+                                    </div>
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="blog-details.html"><img
+                                                    src="assets/images/news/post-2.jpg" alt=""></a></figure>
+                                        <h5><a href="blog-details.html">A digital prescription for the industry.</a>
+                                        </h5>
+                                        <span class="post-date">April 09, 2020</span>
+                                    </div>
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="blog-details.html"><img
+                                                    src="assets/images/news/post-3.jpg" alt=""></a></figure>
+                                        <h5><a href="blog-details.html">Strategic & commercial approach with issues.</a>
+                                        </h5>
+                                        <span class="post-date">April 08, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="sidebar-widget category-widget">
+                                <div class="widget-title">
+                                    <h4>Archives</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list clearfix">
+                                        <li><a href="blog-details.html">November 2016<span>(9)</span></a></li>
+                                        <li><a href="blog-details.html">November 2017<span>(5)</span></a></li>
+                                        <li><a href="blog-details.html">November 2018<span>(2)</span></a></li>
+                                        <li><a href="blog-details.html">November 2019<span>(7)</span></a></li>
+                                        <li><a href="blog-details.html">November 2020<span>(3)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <!-- <div class="sidebar-widget tags-widget">
+                                <div class="widget-title">
+                                    <h4>Popular Tags</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="tags-list clearfix">
+                                        <li><a href="blog-details.html">Real Estate</a></li>
+                                        <li><a href="blog-details.html">HouseHunting</a></li>
+                                        <li><a href="blog-details.html">Architecture</a></li>
+                                        <li><a href="blog-details.html">Interior</a></li>
+                                        <li><a href="blog-details.html">Sale</a></li>
+                                        <li><a href="blog-details.html">Rent Home</a></li>
+                                        <li><a href="blog-details.html">Listing</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar-page-container -->
+
+        <!-- subscribe-section -->
+        <section class="subscribe-section bg-color-1">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+            <div class="auto-container">
+                <div class="inner-box clearfix">
+                    <div class="text">
+                        <h2>מחפשים למכור\להשכיר נכס או <br />מעוניינים לקנות נכס חדש?</h2>
+                    </div>
+                    <div class="btn-box" style="margin-top: 20px;">
+                        <a href="contact.html" class="theme-btn btn-three">מעוניין למכור</a>
+                        <a href="contact.html" class="theme-btn btn-one">מעוניין לקנות</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe-section end -->
+
+
+           <!-- main-footer -->
+           <footer class="main-footer">
+            <div class="footer-top bg-color-2">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget about-widget">
+                                <div class="widget-title">
+                                    <h3>קצת עלינו</h3>
+                                </div>
+                                <div class="text">
+                                    <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס
+                                        קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר</p>
+                                    <p>בנפת נפקט למסון בלרק - וענוף לורם איפסום דולור</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget ml-70">
+                                <div class="widget-title">
+                                    <h3>ניווט</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list class">
+                                        <li><a href="index.html">דף הבית</a></li>
+                                        <li><a href="index.html">נכסים</a></li>
+                                        <li><a href="index.html">עלינו</a></li>
+                                        <li><a href="index.html">חדשות</a></li>
+                                        <li><a href="index.html">יצירת קשר</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget post-widget">
+                                <div class="widget-title">
+                                    <h3>החדשות החמות</h3>
+                                </div>
+                                <div class="post-inner">
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="blog-details.html"><img
+                                                    src="assets/images/resource/footer-post-1.jpg" alt=""></a></figure>
+                                        <h5><a href="blog-details.html">The Added Value Social Worker</a></h5>
+                                        <p>Mar 25, 2020</p>
+                                    </div>
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="blog-details.html"><img
+                                                    src="assets/images/resource/footer-post-2.jpg" alt=""></a></figure>
+                                        <h5><a href="blog-details.html">Ways to Increase Trust</a></h5>
+                                        <p>Mar 24, 2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget contact-widget">
+                                <div class="widget-title">
+                                    <h3>פרטים ליצירת קשר</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li><i class="fas fa-map-marker-alt"></i>טבריה, יוחנן בן זכאי 6,ישראל</li>
+                                        <li><i class="fas fa-microphone"></i><a href="tel:+9720505813711">050-581-3711</a>
+                                        </li>
+                                        <li><i class="fas fa-envelope"></i><a
+                                                href="mailto:info@example.com">meidan@example.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="inner-box clearfix">
+                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png"
+                                    alt=""></a></figure>
+                        <div class="copyright pull-left">
+                            <p><a href="index.html">Shay.S</a> &copy; 2023 All Right Reserved</p>
+                        </div>
+                        <ul class="footer-nav pull-right clearfix">
+                            <li><a href="index.html">Terms of Service</a></li>
+                            <li><a href="index.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+        <!--Scroll to top-->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fal fa-angle-up"></span>
+        </button>
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jQuery.style.switcher.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/product-filter.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+
+</html>

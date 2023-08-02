@@ -1,0 +1,651 @@
+[
+  {
+    "id": "property-1",
+    "title": "דירה בפוריקט מכילאגנלו ",
+    "type": "קנייה",
+    "category": "דירה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "מיידן שוויקי",
+    "authorImage": "assets/images/team/meidan.jpeg",
+    "price": "1,490,000",
+    "description": "מכירה בטבריה בפוריקט מכילאגנלו, נוף מדהים לכינרת. ",
+    "beds": "3",
+    "baths": "2",
+    "sqFt": "125",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-למכירה ברחוב אחד העם בטבריה",
+    "title": "למכירה ברחוב אחד העם בטבריה",
+    "type": "מכירה",
+    "category": "דירה",
+    "author": "מיידן שוויקי",
+    "price": "670000",
+    "description": "בטבריה למכירה ברחוב אחד העם קומה ראשונה. כניסה מיידית!\r\n",
+    "beds": "3",
+    "baths": "1",
+    "sqFt": "70",
+    "link": "property-details.html",
+    "images": [
+      "/assets/images/properties/למכירה ברחוב אחד העם בטבריה/358152092_10220893700206125_4894440845595335878_n.jpg",
+      "/assets/images/properties/למכירה ברחוב אחד העם בטבריה/364745954_10220893699246101_6243751706809530158_n.jpg",
+      "/assets/images/properties/למכירה ברחוב אחד העם בטבריה/364771167_10220893700086122_6803704700108876802_n.jpg",
+      "/assets/images/properties/למכירה ברחוב אחד העם בטבריה/364781512_10220893699206100_2819375493152536535_n.jpg",
+      "/assets/images/properties/למכירה ברחוב אחד העם בטבריה/364792208_10220893699086097_2463861405279945136_n.jpg"
+    ],
+    "authorImage": "/assets/images/team/meidan.jpeg",
+    "amenities": [
+      "מעלית",
+      "מחסן",
+      "חנייה",
+      "דוד שמש",
+      "מרפסת שמש",
+      "מיזוג אוויר",
+      "איזור שקט"
+    ],
+    "location": "טבריה",
+    "floor": "1",
+    "buildingfloors": "-",
+    "longDesc": "בטבריה למכירה ברחוב אחד העם. 💎💎💎\r\nמחיר מבוקש: 670,000 ש\"ח. \r\n💎 3 חדרים מרווחים. \r\n💎  כ-70מ״ר.\r\n💎 קומה ראשונה.\r\n💎מרפסת גדולה לכנרת.\r\n💎 זקוקה לשיפוץ!\r\n💎 כניסה מיידית!"
+  },
+  {
+    "id": "property-2",
+    "title": "Beachfront Condo טיבריה",
+    "type": "Rent",
+    "category": "דירה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "1,750,000",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.hello hello hello.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-3",
+    "title": "Beachfront Condo 2 טבריה",
+    "type": "השכרה",
+    "category": "דירה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "2,500,000",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית",
+      "נגיש לנכים"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-4",
+    "title": "Beachfront Condo עפולה 2",
+    "type": "מכירה",
+    "category": "דירה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "800,000",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "עפולה"
+  },
+  {
+    "id": "property-5",
+    "title": "Beachfront Condo",
+    "type": "השכרה",
+    "category": "דירת גן",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "1,250,000",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "עפולה"
+  },
+  {
+    "id": "property-6",
+    "title": "666Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-7",
+    "title": "777Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/team/meidan.jpeg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-8",
+    "title": "888Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "בריכה",
+      "מחסן",
+      "מרפסת",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-9",
+    "title": "999Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-10",
+    "title": "1010110Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-11",
+    "title": "111Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-12",
+    "title": " 12 12Beac123122hfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-13",
+    "title": "13 13Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-14",
+    "title": "14 14 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-15",
+    "title": "15 15 1 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-16",
+    "title": "16 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-17",
+    "title": "17 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-18",
+    "title": "18 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-19",
+    "title": " 19 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-20",
+    "title": " 20 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-21",
+    "title": "21 21 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית",
+      "מרוהט",
+      "משופץ"
+    ],
+    "location": "טבריה"
+  },
+  {
+    "id": "property-22",
+    "title": " 22 22 Beachfront Condo טבריה 4",
+    "type": "מכירה",
+    "category": "ווילה",
+    "images": [
+      "/assets/images/properties/property-1/property1-2.jpg",
+      "/assets/images/properties/property-1/property1-1.jpg",
+      "/assets/images/properties/property-1/property1-3.jpg",
+      "/assets/images/properties/property-1/property1-4.jpg",
+      "/assets/images/properties/property-1/property1-5.jpg"
+    ],
+    "author": "Emily Johnson",
+    "authorImage": "assets/images/feature/author-2.jpg",
+    "price": "5001",
+    "description": "Adipisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "beds": "2",
+    "baths": "1",
+    "sqFt": "450",
+    "link": "property-details.html",
+    "amenities": [
+      "מחסן",
+      "מיזוג אוויר",
+      "מעלית",
+      "מרוהט",
+      "משופץ"
+    ],
+    "location": "טבריה"
+  }
+]

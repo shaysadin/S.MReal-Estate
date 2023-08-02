@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Realshed - HTML 5 Template Preview</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
+    <link href="assets/css/switcher-style.css" rel="stylesheet">
+    <link href="assets/css/rtl.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper rtl">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="far fa-times"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="ש." class="letters-loading">
+                                ש.
+                            </span>
+                            <span data-text-preloader="מ" class="letters-loading">
+                                מ
+                            </span>
+                            <span data-text-preloader="&nbsp;" class="letters-loading">
+                                &nbsp;
+                            </span>
+                            <span data-text-preloader="נ" class="letters-loading">
+                                נ
+                            </span>
+                            <span data-text-preloader="ד" class="letters-loading">
+                                ד
+                            </span>
+                            <span data-text-preloader='ל' class="letters-loading">
+                                ל
+                            </span>
+                            <span data-text-preloader='"' class="letters-loading">
+                                "
+                            </span>
+                            <span data-text-preloader="ן" class="letters-loading">
+                                ן
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- switcher menu -->
+        <div class="switcher">
+            <div class="switch_btn">
+                <button><i class="fas fa-palette"></i></button>
+            </div>
+            <div class="switch_menu">
+                <!-- color changer -->
+                <div class="switcher_container">
+                    <ul id="styleOptions" title="switch styling">
+                        <li>
+                            <a href="javascript: void(0)" data-theme="green" class="green-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="pink" class="pink-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="violet" class="violet-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="crimson" class="crimson-color"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="orange" class="orange-color"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end switcher menu -->
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="top-inner clearfix">
+                    <div class="left-column pull-left">
+                        <ul class="info clearfix">
+                            <li><i class="far fa-map-marker-alt"></i>יוחנן בן זכאי 6, טבריה</li>
+                            <li><i class="far fa-clock"></i>ראשון - חמישי, משעה 9:00 - 18:00</li>
+                            <li><i class="far fa-phone"></i><a href="tel:+9720505813711">050-581-3711</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-column pull-right">
+                        <ul class="social-links clearfix">
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-box">
+                    <div class="main-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="index.html"><span>דף הבית</span></a>
+
+                                        </li>
+                                        <li><a href="property-grid.html"><span>נכסים</span></a>
+
+                                        </li>
+                                        <li><a href="about.html"><span>קצת עלינו</span></a>
+                                        </li>
+                                        <li><a href="blog-3.html"><span>חדשות</span></a>
+                                        </li>
+                                        <li class="current"><a href="contact.html"><span>צרו קשר</span></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="tel:+9720505813711" class="theme-btn btn-one">972-505813711+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-box">
+                    <div class="main-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="tel:+9720505813711" class="theme-btn btn-one">972-505813711+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a>
+                </div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+                    <h4>פרטים ילצירת קשר</h4>
+                    <ul>
+                        <li>יוחנן בן זכאי 6, טבריה</li>
+                        <li><a href="tel:+9720505813711">050-581-3711</a></li>
+                        <li><a href="mailto:meidan@example.com">meidan@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!--Page Title-->
+        <section class="page-title centred" style="background-image: url(assets/images/background/backabout.png);">
+            <div class="auto-container">
+                <div class="content-box clearfix">
+                    <h1>צרו איתנו קשר</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">דף הבית</a></li>
+                        <li>צרו קשר</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End Page Title-->
+
+
+        <!-- contact-info-section -->
+        <section class="contact-info-section sec-pad centred">
+            <div class="auto-container">
+                <div class="sec-title">
+                    <h5>צרו קשר</h5>
+                    <h2>פרטים ליצירת קשר</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+                        <div class="info-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-32"></i></div>
+                                <h4>אימייל</h4>
+                                <p><a href="mailto:meidan@example.com">meidan@example.com</a><br /><a
+                                        href="mailto:info@example.com">info@example.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+                        <div class="info-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-33"></i></div>
+                                <h4>מספר טלפון</h4>
+                                <p><a href="tel:+9720505873407">050-587-3407</a><br /><a href="tel:+23055873408">+2(305)
+                                        587-3408</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+                        <div class="info-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-34"></i></div>
+                                <h4>כתובת המשרד</h4>
+                                <p>יוחנן בן זכאי 6 <br />טבריה</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-info-section end -->
+
+
+        <!-- contact-section -->
+        <section class="contact-section bg-color-1">
+            <div class="auto-container">
+                <div class="row align-items-center clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content-box">
+                            <div class="sec-title">
+                                <h5>יצירת קשר</h5>
+                                <h2>צרו איתנו קשר</h2>
+                            </div>
+                            <div class="form-inner">
+                                <form method="post" action="sendemail.php" id="contact-form">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="username" placeholder="שם מלא" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="email" name="email" placeholder="אימייל" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="phone" placeholder="מספר טלפון" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="subject" placeholder="נושא" required="">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <textarea name="message" placeholder="הודעה"></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                            <button class="theme-btn btn-one" type="submit" name="submit-form">שליחת
+                                                הודעה</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 map-column">
+                        <div class="google-map-area">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.0686603783997!2d35.53308257622657!3d32.790438683298916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c3e4fa78f12b9%3A0x6683793ed238ba19!2sYokhanan%20Ben%20Zakai%20St%206%2C%20Tverya%2C%20Israel!5e0!3m2!1sen!2sus!4v1690917417540!5m2!1sen!2sus"
+                                width="550" height="540" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-section end -->
+
+
+        <!-- subscribe-section -->
+        <section class="subscribe-section bg-color-1">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+            <div class="auto-container">
+                <div class="inner-box clearfix">
+                    <div class="text">
+                        <h2>מחפשים למכור\להשכיר נכס או <br />מעוניינים לקנות נכס חדש?</h2>
+                    </div>
+                    <div class="btn-box" style="margin-top: 20px;">
+                        <a href="contact.html" class="theme-btn btn-three">מעוניין למכור</a>
+                        <a href="contact.html" class="theme-btn btn-one">מעוניין לקנות</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe-section end -->
+
+
+             <!-- main-footer -->
+             <footer class="main-footer">
+                <div class="footer-top bg-color-2">
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget about-widget">
+                                    <div class="widget-title">
+                                        <h3>קצת עלינו</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס
+                                            קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר</p>
+                                        <p>בנפת נפקט למסון בלרק - וענוף לורם איפסום דולור</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget links-widget ml-70">
+                                    <div class="widget-title">
+                                        <h3>ניווט</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="links-list class">
+                                            <li><a href="index.html">דף הבית</a></li>
+                                            <li><a href="index.html">נכסים</a></li>
+                                            <li><a href="index.html">עלינו</a></li>
+                                            <li><a href="index.html">חדשות</a></li>
+                                            <li><a href="index.html">יצירת קשר</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget post-widget">
+                                    <div class="widget-title">
+                                        <h3>החדשות החמות</h3>
+                                    </div>
+                                    <div class="post-inner">
+                                        <div class="post">
+                                            <figure class="post-thumb"><a href="blog-details.html"><img
+                                                        src="assets/images/resource/footer-post-1.jpg" alt=""></a></figure>
+                                            <h5><a href="blog-details.html">The Added Value Social Worker</a></h5>
+                                            <p>Mar 25, 2020</p>
+                                        </div>
+                                        <div class="post">
+                                            <figure class="post-thumb"><a href="blog-details.html"><img
+                                                        src="assets/images/resource/footer-post-2.jpg" alt=""></a></figure>
+                                            <h5><a href="blog-details.html">Ways to Increase Trust</a></h5>
+                                            <p>Mar 24, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget contact-widget">
+                                    <div class="widget-title">
+                                        <h3>פרטים ליצירת קשר</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="info-list clearfix">
+                                            <li><i class="fas fa-map-marker-alt"></i>טבריה, יוחנן בן זכאי 6,ישראל</li>
+                                            <li><i class="fas fa-microphone"></i><a href="tel:+9720505813711">050-581-3711</a>
+                                            </li>
+                                            <li><i class="fas fa-envelope"></i><a
+                                                    href="mailto:info@example.com">meidan@example.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="auto-container">
+                        <div class="inner-box clearfix">
+                            <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png"
+                                        alt=""></a></figure>
+                            <div class="copyright pull-left">
+                                <p><a href="index.html">Shay.S</a> &copy; 2023 All Right Reserved</p>
+                            </div>
+                            <ul class="footer-nav pull-right clearfix">
+                                <li><a href="index.html">Terms of Service</a></li>
+                                <li><a href="index.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- main-footer end -->
+
+
+
+
+        <!--Scroll to top-->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fal fa-angle-up"></span>
+        </button>
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jQuery.style.switcher.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <!-- <script src="assets/js/product-filter.js"></script> -->
+
+    <!-- map script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/js/map-helper.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+
+</html>
