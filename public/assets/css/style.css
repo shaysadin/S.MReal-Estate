@@ -429,8 +429,14 @@
  }
 
  .theme-btn.btn-one:before {
-   background-color: #1b1d21;
+   background-color: #fdfeff;
  }
+
+ 
+ .theme-btn.btn-one:hover {
+  color: #000000;
+  border-color: #000000;
+}
 
  .theme-btn:hover:before {
    width: 100%;
@@ -455,7 +461,7 @@
 
  .theme-btn.btn-three {
    color: #2d2929;
-   border: 2px solid #fff;
+   border: 1px solid #1b1d1c;
    background-color: #ffffff;
  }
 
@@ -1760,7 +1766,10 @@
  }
 
  .search-field .top-search .search-btn button:hover {
-   background-color: #1b1d21 !important;
+   background-color: #f2f3f5 !important;
+   border: 2px solid black;
+   color: black;
+   transition:0s;
  }
 
  .search-field .top-search .search-btn button span {
@@ -1997,7 +2006,7 @@
 
  .category-block-one .inner-box:hover span {
    background-color: rgba(255, 255, 255, 0.1);
-   color: #ffffff;
+   color: #000000;
  }
 
  .category-section .more-btn {
@@ -2006,7 +2015,7 @@
  }
 
  .bg-color-1 {
-   background-color: #e5f8ed;
+   background-color: #ffffff;
  }
 
 
@@ -3378,6 +3387,7 @@
  .news-block-one .inner-box .lower-content .post-info li.author-box .author-thumb img {
    width: 100%;
    border-radius: 50%;
+   height: 40px;
  }
 
  .news-block-one .inner-box .lower-content .post-info li.author-box h5 {
@@ -3978,7 +3988,7 @@
 
 
  .search-field-section .search-field .top-search .search-form {
-   padding-right: 320px;
+   padding-right: 185px;
  }
 
  .search-field-section .search-field .top-search .search-btn button {
@@ -3987,7 +3997,7 @@
    line-height: 50px;
    border-radius: 5px;
    top: 58px;
-   right: 100px;
+   right: 25px;
  }
 
  .search-field-section .search-field .top-search .search-btn button i {
@@ -4056,7 +4066,7 @@
 
  .cta-section.alternate-2 {
    position: relative;
-   padding: 138px 0px 150px 0px;
+   padding: 40px 0px 150px 0px;
    width: 100%;
    background-size: cover;
    background-repeat: no-repeat;
@@ -6245,6 +6255,7 @@
    line-height: 26px;
    color: #0f172b;
    font-weight: 500;
+   text-align: right;
  }
 
  .default-sidebar .agents-search .form-group {
@@ -7056,13 +7067,14 @@
    line-height: 38px;
    font-weight: 500;
    margin-bottom: 20px;
+   text-align: right;
  }
 
  .property-details .top-details .left-column .author-box {
    position: relative;
    padding-left: 52px;
    padding-right: 20px;
-   margin-right: 20px;
+   margin-right: 50px;
  }
 
  .property-details .top-details .left-column .author-box:before {
@@ -7077,7 +7089,7 @@
 
  .property-details .top-details .left-column .author-box .author-thumb {
    position: absolute;
-   left: 0px;
+   left: 190px;
    top: 0px;
    width: 40px;
    height: 40px;
@@ -9261,6 +9273,7 @@
    font-size: 20px;
    line-height: 30px;
    font-weight: 500;
+   text-align: right;
  }
 
  .blog-sidebar .sidebar-widget .search-inner .form-group {
@@ -9336,7 +9349,7 @@
  }
 
  .blog-sidebar .social-widget .social-links li:last-child a {
-   background-color: #e4405f;
+   background-color: #466ca9;
  }
 
  .blog-sidebar .category-widget .category-list li {

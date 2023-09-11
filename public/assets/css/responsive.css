@@ -859,7 +859,7 @@
 
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 607px) {
 
   .category-section .category-list li {
     width: 100%;
@@ -928,6 +928,12 @@
     font-size: 22px;
     line-height: 30px;
   }
+
+  .menu-right-content a {
+    display: none;
+  }
+
+
 
 }
 
@@ -1187,4 +1193,16 @@
     margin-bottom: 15px;
   }
 
+  .btn-resp a {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1112px) {
+  /* Your CSS rules for screens between 1000px and 1112px width go here */
+  /* For example, you can style elements, change fonts, or adjust layout */
+  .menu-right-content a {
+    display: none;
+  }
+  
 }

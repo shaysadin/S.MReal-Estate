@@ -47,7 +47,7 @@ function generatePropertyList(property) {
             <div class="title-text"><h4><a href="property-details.html?id=${property.id}">${property.title}</a></h4></div>
             <div class="price-box clearfix">
                 <div class="price-info pull-left">
-                    <h6>Start From</h6>
+                    <h6>מחיר</h6>
                     <h4>₪${property.price}</h4>
                 </div>
                 <div class="author-box pull-right">
@@ -64,7 +64,7 @@ function generatePropertyList(property) {
               <li><i class="icon-16"></i>${property.sqFt} מ"ר</li>
             </ul>
             <div class="other-info-box clearfix">
-                <div class="btn-box pull-left"><a href="property-details.html?id=${property.id}" class="theme-btn btn-two">See Details</a></div>
+                <div class="btn-box pull-left"><a href="property-details.html?id=${property.id}" class="theme-btn btn-two">לצפייה בנכס</a></div>
                 <ul class="other-option pull-right clearfix">
                     <li><a href="property-details.html?id=${property.id}"><i class="icon-12"></i></a></li>
                     <li><a href="property-details.html?id=${property.id}"><i class="icon-13"></i></a></li>
@@ -108,7 +108,7 @@ function generatePropertyGrid(property) {
               <div class="title-text"><h4><a href="property-details.html?id=${property.id}">${property.title}</a></h4></div>
               <div class="price-box clearfix">
                   <div class="price-info pull-left">
-                      <h6>Start From</h6>
+                      <h6>מחיר</h6>
                       <h4>₪${property.price}</h4>
                   </div>
                   <ul class="other-option pull-right clearfix">
@@ -338,13 +338,24 @@ filterButton.addEventListener('click', () => {
 });
 
 
+
+
 const urlParams = new URLSearchParams(window.location.search);
 
 // Retrieve selected parameters from the URL
+const searchInputParam = urlParams.get('search-field');
 const locationParam = urlParams.get('location');
 const propertyCategoryParam = urlParams.get('propertyCategory');
 const saleRentParam = urlParams.get('saleRent');
 const categoryName = urlParams.get('category');
+const propertyPriceRangeParam = urlParams.get('propertyPriceRange');
+const maxRoomsParam = urlParams.get('maxRooms');
+
+
+
+
+// Get the current tab button with the "active-btn" class
+
 
 // Filter properties based on the selected parameters
 function filterPropertiesByParams(properties) {
@@ -369,6 +380,50 @@ function filterPropertiesByParams(properties) {
       match = false;
     }
 
+    
+
+    // Check if search input matches property title or location
+    if (searchInputParam && searchInputParam.trim() !== '') {
+      const searchInput = searchInputParam.toLowerCase();
+      const titleLower = property.title.toLowerCase();
+      const locationLower = property.location.toLowerCase();
+      const categoryLower = property.category.toLowerCase();
+
+      // Check for partial matches in title and location
+      if (!titleLower.includes(searchInput) && !locationLower.includes(searchInput) && !categoryLower.includes(searchInput)) {
+          match = false;
+      }
+  }
+
+  const propertyPrice = parseFloat(property.price.replace(/,/g, ''));
+  if (propertyPriceRangeParam === '5000' && (propertyPrice < 0 || propertyPrice > 5000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '10000' && (propertyPrice < 5000 || propertyPrice > 10000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '500000' && (propertyPrice < 250000 || propertyPrice > 500000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '1000000' && (propertyPrice < 500000 || propertyPrice > 1000000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '1500000' && (propertyPrice < 1000000 || propertyPrice > 1500000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '2000000' && (propertyPrice < 1500000 || propertyPrice > 2000000)) {
+    match = false;
+  } else if (propertyPriceRangeParam === '2000001' && propertyPrice <= 2000000) {
+    match = false;
+  }
+
+  if (maxRoomsParam === '2+ Rooms' && property.beds < 2) {
+    match = false;
+  }
+  if (maxRoomsParam === '3+ Rooms' && property.beds < 3) {
+    match = false;
+  }
+  if (maxRoomsParam === '4+ Rooms' && property.beds < 4) {
+    match = false;
+  }
+  if (maxRoomsParam === '5+ Rooms' && property.beds < 5) {
+    match = false;
+  }
     // Add more filtering criteria as needed
     // ...
 
@@ -453,11 +508,14 @@ function displayPagination(totalPages) {
   });
 }
 
-function applySelectedParamsToFilters(locationParam, propertyTypeParam, saleRentParam, categoryName) {
+function applySelectedParamsToFilters(locationParam, propertyTypeParam, saleRentParam, categoryName, propertyPriceRangeParam, maxRoomsParam ) {
   setTimeout(() => {
     const locationSelect = document.querySelector('.select-box select[name="propertyLocation"]');
     const propertyTypeSelect = document.querySelector('.select-box select[name="propertyType"]');
     const categorySelect = document.querySelector('.select-box select[name="propCategory"]');
+    const pricrRangeSelect = document.querySelector('.select-box select[name="propertyPriceRange"]');
+    const maxRoomsSelect = document.querySelector('.select-box select[name="maxRooms"]');
+
 
     // Check if locationSelect exists before applying selected option
     if (locationSelect && locationParam) {
@@ -502,6 +560,24 @@ function applySelectedParamsToFilters(locationParam, propertyTypeParam, saleRent
         categoryCustomSelect.querySelector('.current').innerText = propertyTypeParam;
       }
     }
+
+    if (maxRoomsSelect && maxRoomsParam) {
+      maxRoomsSelect.value = maxRoomsParam;
+      // Trigger change event on custom select box
+      const maxRoomCustomSelect = document.querySelector('.select-box select[name="maxRooms"] + .nice-select');
+      if (maxRoomCustomSelect) {
+        maxRoomCustomSelect.querySelector('.current').innerText = maxRoomsParam;
+      }
+    }
+
+    if (pricrRangeSelect && propertyPriceRangeParam) {
+      pricrRangeSelect.value = propertyPriceRangeParam;
+      // Trigger change event on custom select box
+      const priceCustomSelect = document.querySelector('.select-box select[name="propertyPriceRange"] + .nice-select');
+      if (priceCustomSelect) {
+        priceCustomSelect.querySelector('.current').innerText = propertyPriceRangeParam;
+      }
+    }
   }, 200); // Adjust the delay as needed (e.g., 100 milliseconds)
 }
 
@@ -512,11 +588,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const propertyTypeParam = urlParams.get('propertyCategory');
   const saleRentParam = urlParams.get('saleRent');
   const categoryName = urlParams.get('category');
+  const propertyPriceRangeParam = urlParams.get('propertyPriceRange');
+  const maxRoomsParam = urlParams.get('maxRooms');
+
 
   
-  applySelectedParamsToFilters(locationParam, propertyTypeParam, saleRentParam, categoryName)
+  applySelectedParamsToFilters(locationParam, propertyTypeParam, saleRentParam, categoryName, propertyPriceRangeParam, maxRoomsParam )
   // Check if any of the parameters is present in the URL
-  if (locationParam || propertyTypeParam || saleRentParam || categoryName) {
+  if (locationParam || propertyTypeParam || saleRentParam || categoryName || propertyPriceRangeParam || maxRoomsParam) {
     // Fetch properties data and filter based on URL parameters
     fetchPropertiesData().then(() => {
       // Filter properties based on the URL parameters
@@ -531,7 +610,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
    
-    history.pushState({}, '', window.location.pathname);
+    // history.pushState({}, '', window.location.pathname);
   } else {
     // If no parameters in the URL, fetch all properties data and display them
     fetchPropertiesData().then(() => {

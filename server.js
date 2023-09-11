@@ -87,11 +87,11 @@ app.post('/create_property', upload.array('images'), (req, res) => {
     let authorName = '' 
 
     if(selectedAuthor === 'meidan'){
-        authorName = 'מיידן שוויקי'
-    }else if (selectedAuthor === 'alex'){
-        authorName = 'אלכס אלכס'
+        authorName = 'מידן שויקי'
+    }else if (selectedAuthor === 'oren'){
+        authorName = 'אורן קארו'
     }else {
-        authorName = 'שרה'
+        authorName = 'יפעת שטרית'
     }
 
 

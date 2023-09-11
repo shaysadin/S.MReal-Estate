@@ -167,24 +167,24 @@
 	}
 
 
-	//Tabs Box
-	if($('.tabs-box').length){
-		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
-			e.preventDefault();
-			var target = $($(this).attr('data-tab'));
+	// Tabs Box
+	// if($('.tabs-box').length){
+	// 	$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
+	// 		e.preventDefault();
+	// 		var target = $($(this).attr('data-tab'));
 			
-			if ($(target).is(':visible')){
-				return false;
-			}else{
-				target.parents('.tabs-box').find('.tab-buttons').find('.tab-btn').removeClass('active-btn');
-				$(this).addClass('active-btn');
-				target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
-				target.parents('.tabs-box').find('.tabs-content').find('.tab').removeClass('active-tab');
-				$(target).fadeIn(300);
-				$(target).addClass('active-tab');
-			}
-		});
-	}
+	// 		if ($(target).is(':visible')){
+	// 			return false;
+	// 		}else{
+	// 			target.parents('.tabs-box').find('.tab-buttons').find('.tab-btn').removeClass('active-btn');
+	// 			$(this).addClass('active-btn');
+	// 			target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
+	// 			target.parents('.tabs-box').find('.tabs-content').find('.tab').removeClass('active-tab');
+	// 			$(target).fadeIn(300);
+	// 			$(target).addClass('active-tab');
+	// 		}
+	// 	});
+	// }
 
 
 
@@ -248,8 +248,9 @@
 			loop:true,
 			margin:30,
 			nav:true,
+			autoplay: true,
 			smartSpeed: 1000,
-			autoplay: 500,
+        	autoplayTimeout: 7000,
 			navText: [ '<span class="far fa-angle-left"></span>', '<span class="far fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -398,32 +399,34 @@
 
 	// banner-carousel
 	if ($('.banner-carousel').length) {
-        $('.banner-carousel').owlCarousel({
-            loop:true,
-			margin:0,
-			nav:true,
+		$('.banner-carousel').owlCarousel({
+			loop: false,
+			margin: 0,
+			nav: false, // Disable navigation arrows
+			dots: false, // Disable navigation dots
 			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-    		active: true,
+			animateIn: 'fadeIn',
+			active: false,
 			smartSpeed: 1000,
 			autoplayTimeout: 40000,
-            navText: [ '<span class="far fa-angle-left"></span>', '<span class="far fa-angle-right"></span>' ],
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:1
-                },
-                800:{
-                    items:1
-                },
-                1024:{
-                    items:1
-                }
-            }
-        });
-    }
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				800: {
+					items: 1
+				},
+				1024: {
+					items: 1
+				}
+			},
+			touchDrag: false, // Disable swipe on touch devices
+			mouseDrag: false // Disable swipe with mouse drag
+		});
+	}
 
 
 	//Add One Page nav
@@ -667,6 +670,5 @@
 		enableMasonry();
 	});
 
-	
 
 })(window.jQuery);

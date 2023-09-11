@@ -99,38 +99,43 @@
 </head>
 
 <body>
-    <h2>Add New Property</h2>
+    <h2>הוספת נכס חדש</h2>
     <form id="propertyForm" enctype="multipart/form-data">
-        <label for="title">Title:</label>
+        <label for="title">כותרת:</label>
         <input type="text" id="title" name="title" required><br>
 
-        <label for="type">Type:</label>
+        <label for="type">מכירה\השכרה:</label>
         <input type="text" id="type" name="type" required><br>
 
         <!-- <label for="category">Category:</label>
         <input type="text" id="category" name="category" required><br> -->
 
-        <label for="category">category:</label>
+        <label for="category">קטגוריה:</label>
         <select id="category" name="category" required>
-            <option value="דירת גן">דירת גן</option>
-            <option value="מסחרי">מסחרי</option>
-            <option value="דירה">דירה</option>
             <option value="ווילה">ווילה</option>
+            <option value="דירת גן">דירת גן</option>
+            <option value="פנטאוז">פנטאוז</option>
             <option value="בית פרטי">בית פרטי</option>
-            <option value="משרד">משרד</option>
+            <option value="דופלקס">דופלקס</option>
+            <option value="סריפלקס">סריפלקס</option>
+            <option value="יחידת דיור">יחידת דיור</option>
+            <option value="דו משפחתי">דו משפחתי</option>
+            <option value="משק חקלאי">משק חקלאי</option>
+            <option value="מגרשים">מגרשים</option>
+            <option value="מסחרי">מסחרי</option>
         </select><br>
 
-        <label for="location">Location:</label>
+        <label for="location">מיקום:</label>
         <input type="text" id="location" name="location" required><br>
 
-        <label for="images">Images:</label>
+        <label for="images">הוספת תמונות:</label>
         <input type="file" id="images" name="images" multiple accept="image/*" required><br>
 
-        <label for="author">Author:</label>
+        <label for="author">מתווך:</label>
         <select id="author" name="author" required>
-            <option value="meidan">Meidan</option>
-            <option value="alex">Alex</option>
-            <option value="sarah">Sarah</option>
+            <option value="meidan">מידן</option>
+            <option value="oren">אורן</option>
+            <option value="yifat">יפעת</option>
         </select><br>
 
         <!-- <label for="author">Author:</label>
@@ -139,31 +144,31 @@
         <label for="authorImage">Author Image:</label>
         <input type="file" id="authorImage" name="authorImage" accept="image/*" required><br> -->
 
-        <label for="price">Price:</label>
+        <label for="price">מחיר:</label>
         <input type="number" id="price" name="price" required><br>
 
-        <label for="shortDesc">Short Description:</label>
-        <textarea id="shortDesc" name="shortDesc" required minlength="50" maxlength="75" placeholder="Type more then 50 and less then 75 letters."></textarea><br>
+        <label for="shortDesc">תיאור קצר:</label>
+        <textarea id="shortDesc" name="shortDesc" required minlength="50" maxlength="65" placeholder="תיאור קצר בין 50 ל 65 תווים..."></textarea><br>
 
-        <label for="longDesc">Short Description:</label>
-        <textarea id="longDesc" name="longDesc" required placeholder="Type long description here."></textarea><br>
+        <label for="longDesc">תיאור מפורט:</label>
+        <textarea id="longDesc" name="longDesc" required placeholder="תיאור ארוך לדף נכס"></textarea><br>
 
-        <label for="beds">Beds:</label>
+        <label for="beds">חדרים:</label>
         <input type="number" id="beds" name="beds" required><br>
 
-        <label for="baths">Baths:</label>
+        <label for="baths">חדרי רחצה:</label>
         <input type="number" id="baths" name="baths" required><br>
 
-        <label for="sqFt">Square Feet:</label>
+        <label for="sqFt">גודל בנוי:</label>
         <input type="number" id="sqFt" name="sqFt" required><br>
 
-        <label for="builfloor">building floors:</label>
+        <label for="builfloor">קומות בבניין:</label>
         <input type="text" id="buildingfloors" name="buildingfloors" value="-" required><br>
 
-        <label for="floor">floor:</label>
+        <label for="floor">קומת הנכס:</label>
         <input type="text" id="floor" name="floor" value="-" required><br>
 
-        <label for="priority">Priority (1-9):</label>
+        <label for="priority">עדיפות: (השאר 0)</label>
         <input type="number" id="priority" name="priority" min="1" max="9">
         
         <br>
@@ -172,7 +177,7 @@
         <input type="number" id="sqFt" name="sqFt" required><br> -->
 
         <div class="amenities">
-            <label>Amenities:</label><br>
+            <label>מתקנים:</label><br>
             <label for="amenity1">מעלית</label>
             <input type="checkbox" id="amenity1" name="amenities" value="מעלית"><br>
             <label for="amenity2">מחסן</label>
@@ -197,16 +202,16 @@
             <input type="checkbox" id="amenity11" name="amenities" value="איזור שקט"><br>
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit">העלה נכס</button>
     </form>
 
-    <h2>Delete Property</h2>
+    <h2>מחיקת נכסים</h2>
     <form id="deletePropertyForm">
-        <label for="propertyList">Select Property:</label>
+        <label for="propertyList">בחר נכס:</label>
         <select id="propertyList" name="propertyList">
             <!-- Populate options dynamically using JavaScript -->
         </select>
-        <button type="button" id="deleteButton">Delete Property</button>
+        <button type="button" id="deleteButton">מחק נכס</button>
     </form>
     <script>
         const propertyForm = document.getElementById('propertyForm');

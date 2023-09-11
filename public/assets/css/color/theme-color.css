@@ -3,15 +3,15 @@
 /* theme-color */
 
 .scroll-top{
-  background: #2dbe6c;
+  background: #000000;
 }
 
 .mobile-menu .contact-info ul li a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .mobile-menu .social-links li a:hover{
-  color:#2dbe6c;  
+  color:#ffffff;  
 }
 
 .switcher .switch_btn button{
@@ -20,7 +20,7 @@
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  color: #2dbe6c !important;
+  color: #838383 !important;
 }
 
 .main-menu .navigation > li > ul{
@@ -28,7 +28,7 @@
 }
 
 .main-menu .navigation > li > ul > li > a:hover{
-  color:#2dbe6c;
+  color:#ffffff;
 }
 
 .main-menu .navigation li.current.dropdown .dropdown-btn,
@@ -41,23 +41,23 @@
 }
 
 .header-top .info li a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .header-top .info li i{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .header-top .social-links li a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .header-top .sign-box a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .header-top .sign-box a i{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .main-menu .navigation > li > ul > li > a:hover,
@@ -66,7 +66,7 @@
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #2dbe6c;
+  color: #b3b4b3;
 }
 
 .main-menu .navigation > li.dropdown > .megamenu{
@@ -74,20 +74,20 @@
 }
 
 .main-menu .navigation > li > a:before{
-  background-color: #2dbe6c;
+  background-color: #808080;
 }
 
 .theme-btn.btn-one{
-  background-color: #2dbe6c;
-  border: 2px solid #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
 }
 
 .search-field .top-search .search-btn button{
-  background-color: #2dbe6c;
+  background-color: #0c0c0c;
 }
 
 .search-field .tab-btn-box li.active-btn{
-  background-color: #2dbe6c;
+  background-color: #0e0f0f;
 }
 
 .ui-slider-horizontal .ui-slider-range{
@@ -103,36 +103,41 @@
 }
 
 .category-block-one .inner-box:before{
-  background-color: #2dbe6c;
+  background-color: #cfcfcfe5;
+}
+
+.category-block-one .inner-box a:hover{
+  color: #ffffff;
 }
 
 .sec-title h5{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .feature-block-one .inner-box .lower-content .author-info .buy-btn a:hover{
-  background-color: #2dbe6c;
+  background-color: #080808;
 }
 
 .feature-block-one .inner-box .lower-content .title-text h4 a:hover{
-  color: #2dbe6c;
+  color: #646464;
 }
 
 .feature-block-one .inner-box .lower-content .price-box .price-info h4{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .feature-block-one .inner-box .lower-content .price-box .other-option li a:hover{
-  background-color: #2dbe6c;
-  border-color: #2dbe6c;
+  background-color: #000000;
+  border-color: #f1f1f1;
 }
 
 .theme-btn.btn-two:hover{
-  border-color: #2dbe6c;
+  border-color: #ffffff;
 }
 
 .theme-btn.btn-two:before{
-  background-color: #2dbe6c;
+  background-color: #0a0a0a;
+  border: 1px solid white;
 }
 
 .deals-block-one .inner-box .lower-content .title-text h4 a:hover{
@@ -140,12 +145,12 @@
 }
 
 .deals-block-one .inner-box .lower-content .other-option li a:hover{
-  background-color: #2dbe6c;
-  border-color: #2dbe6c;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .deals-block-one .inner-box .lower-content .price-box .price-info h4{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .nav-style-one .owl-nav button:hover{
@@ -166,12 +171,12 @@
 }
 
 .team-block-one .inner-box .lower-content .inner .social-links li a:hover{
-  border-color: #2dbe6c;
-  background-color: #2dbe6c;
+  border-color: #ffffff;
+  background-color: #1b1d1c;
 }
 
 .theme-btn.btn-three:before{
-  background-color: #1b201d;
+  background-color: #000000;
 }
 
 .theme-btn.btn-three:hover{
@@ -191,7 +196,7 @@
 }
 
 .footer-top a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .footer-top .links-widget .links-list li a:hover:before{
@@ -199,11 +204,11 @@
 }
 
 .footer-top .contact-widget .info-list li i{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .footer-bottom a:hover{
-  color: #2dbe6c;
+  color: #ffffff;
 }
 
 .main-header .menu-right-content .sign-box a:hover{
@@ -287,19 +292,19 @@
 
 .contact-section .form-inner input:focus,
 .contact-section .form-inner textarea:focus{
-  border-color: #2dbe6c !important;
+  border-color: #000000 !important;
 }
 
 .item-shorting .right-column .short-menu button:hover,
 .item-shorting .right-column .short-menu button.on{
-  border-color: #2dbe6c;
-  background-color: #2dbe6c;
+  border-color: #ffffff;
+  background-color: #000000;
 }
 
 .pagination li a:hover,
 .pagination li a.current{
-  border-color: #2dbe6c;
-  background-color: #2dbe6c;
+  border-color: #000000;
+  background-color: #000000;
 }
 
 .owl-item:nth-child(2n+1) .feature-block-two .inner-box .icon-box{
@@ -327,11 +332,11 @@
 }
 
 .page-title .bread-crumb li a:hover{
-  color: #2dbe6c;
+  color: #cacaca;
 }
 
 .default-sidebar .category-widget .category-list li a:hover{
-  color: #2dbe6c;
+  color: #cacaca;
 }
 
 .default-sidebar .category-widget .category-list li a:hover:before{
@@ -393,19 +398,19 @@
 
 .default-form input:focus,
 .default-form textarea:focus{
-  border-color: #2dbe6c !important;
+  border-color: #000000 !important;
 }
 
 .page-title-two .bread-crumb li:last-child{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .page-title-two .bread-crumb li a:hover{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .property-page-section .deals-block-one .image-box .buy-btn a:hover{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .default-sidebar .price-filter .input input{
@@ -413,7 +418,7 @@
 }
 
 .property-details .top-details .right-column .price-inner .price-box h3{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .property-details .top-details .right-column .other-option li a:hover{
@@ -422,15 +427,15 @@
 }
 
 .property-details .carousel-inner .owl-nav button:hover{
-  background-color: #2dbe6c;
+  background-color: #000000;
 }
 
 .property-details-content .amenities-box .list li:before{
-  border: 2px solid #2dbe6c;
+  border: 2px solid #000000;
 }
 
 .property-details-content .amenities-box .list li:after{
-  background-color: #2dbe6c;
+  background-color: #000000;
 }
 
 .accordion-box .block .acc-btn.active h5{
@@ -451,11 +456,11 @@
 }
 
 .property-sidebar .author-widget .author-box .inner .info li i{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .property-sidebar .author-widget .author-box .inner .info li a{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .property-sidebar .author-widget .author-box .btn-box a{
@@ -528,7 +533,7 @@
 }
 
 .info-block-one .inner-box p a:hover{
-  color: #2dbe6c;
+  color: #000000;
 }
 
 .info-block:nth-child(2) .info-block-one .inner-box .icon-box:before{

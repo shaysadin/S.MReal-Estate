@@ -28,7 +28,7 @@ function generateProperty(property) {
                         <div class="title-text"><h4><a href="property-details.html?id=${property.id}">${property.title}</a></h4></div>
                         <div class="price-box clearfix">
                             <div class="price-info pull-left">
-                                <h6>Start From</h6>
+                                <h6>מחיר</h6>
                                 <h4>₪${property.price}</h4>
                             </div>
                             <ul class="other-option pull-right clearfix">
@@ -192,25 +192,22 @@ fetch('/property.json')
     .then((data) => {
         // Check if the data is an array and has at least one element
         if (Array.isArray(data) && data.length > 0) {
-            const maxPropertiesToShow = 9;
-            const slicedData = data.slice(0, maxPropertiesToShow);
+            const maxPropertiesToShow = 12;
+            const randomProperties = getRandomProperties(data, maxPropertiesToShow);
             const propertyGrid = document.getElementById('property-grid');
 
-            // const maxDealsToShow = 4;
-            // const slicedDealsData = data.slice(0, maxDealsToShow);
-            const propertyDeals = document.getElementById('property-deals');
 
             // Generate property blocks HTML
-            const propertyBlocksHTML = slicedData.map((property) => generateProperty(property)).join('');
+            const propertyBlocksHTML = randomProperties.map((property) => generateProperty(property)).join('');
 
             // Append the property blocks to the property grid
             propertyGrid.innerHTML = propertyBlocksHTML;
 
             // Generate property deals blocks HTML
-            const propertyDealBlocksHTML = generatePropertyDeals(data);
+            // const propertyDealBlocksHTML = generatePropertyDeals(data);
 
             // Append the property blocks to the property grid
-            propertyDeals.innerHTML = propertyDealBlocksHTML;
+            // propertyDeals.innerHTML = propertyDealBlocksHTML;
 
             $('.deals-carousel').owlCarousel({
                 loop:true,
@@ -248,8 +245,22 @@ fetch('/property.json')
         console.error('Error fetching JSON data:', error);
     });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    // Initialize the Owl Carousel
-
-});
+    function getRandomProperties(data, count) {
+        const shuffledData = [...data]; // Create a copy of the data array
+        let currentIndex = shuffledData.length, randomIndex, temporaryValue;
+    
+        // While there remain elements to shuffle...
+        while (currentIndex !== 0) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+    
+            // And swap it with the current element.
+            temporaryValue = shuffledData[currentIndex];
+            shuffledData[currentIndex] = shuffledData[randomIndex];
+            shuffledData[randomIndex] = temporaryValue;
+        }
+    
+        // Return a slice of the shuffled data with the specified count
+        return shuffledData.slice(0, count);
+    }
